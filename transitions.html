@@ -1,0 +1,72 @@
+<!doctype html>
+            
+<html lang="en">       
+<head>
+    <meta charset="utf-8">
+    <title>transition page</title>
+    <style>
+#one { 
+    width: 100px;
+    height: 100px;
+    background: rgb(185, 65, 65);
+    border: 3px solid rgb(123, 33, 33);
+    transition: background 4s, transform 1s;
+}
+#one:hover {
+    background: rgb(145, 50, 50);
+    border: 5px solid rgb(94, 24, 24);
+    transform: rotate(200deg)scale(6);
+}
+#two {
+    width: 400px;
+    height: 400px;
+    background: rgb(228, 220, 108);
+    margin: 100px;
+    border-bottom: 5px solid rgb(150, 150, 10);
+    border-right: 9px solid rgb(150, 150, 10);
+    border-left: 5px solid rgb(255, 255, 113);
+    border-top: 5px solid rgb(255, 255, 130);
+    transition: background 4s, transform 1s;
+}
+#two:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(2000deg)
+}
+#three {
+    color: rgb(255, 0, 0);
+    transition: background 4s, transform 1s;
+}
+#three:hover {
+    transform: rotate(-2000deg);
+    color: black;
+}
+#four { 
+    color: cyan;
+    border: 5px solid cyan;
+    border-radius: 50%;
+    text-align: center;
+    transition: background 1s, transform 10s;
+}
+#four:hover {
+    color: rgb(89, 0, 255);
+    border: 10px solid;
+    transform: rotate(3000deg);
+}
+body {
+  background-image: url("creepysmile.jpeg");
+  background-size: cover;
+}
+    </style>
+</head>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three">RAHHHHHHHH</div>
+<div id="four">the world is spinning spinning spinning spinning</div>
+
+
+    </body>
+
+</html>
