@@ -1,0 +1,60 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head> 
+    <meta charset="utf-8">
+<title>boxes page</title>
+<style>
+
+div {
+    background-color: rgb(226, 111, 226);
+    width: 200px;
+    height: 500px;
+    border: 2px solid #000000;
+    margin: 30px;
+
+    
+}
+#one {
+    position: static;
+
+}
+#two {
+    position: relative;
+    left: 210px;
+    top: -534px;
+}
+#three {
+   background-color: crimson;
+   position: absolute;
+   left: 429px;
+   top: 0px;
+}
+#four {
+    background-color: chocolate;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+#five {
+    background-color: rgb(80, 80, 156);
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+</style>
+</head>
+
+<body>
+
+
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+<div id="five"></div>
+
+</body>
+
+</html>
