@@ -1,0 +1,43 @@
+<!doctype html>
+            
+<html lang="en">       
+<head>
+<meta charset="utf-8">
+<title>Float Demo</title>
+<style>
+.right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.right::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.left::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<body>
+    <img class="right" src="pineapple.jpg"alt="pineapple lol"/>
+    <h2>This is floating</h2>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+</body>
+<body>
+    <img class="left" src="pineapple.jpg"alt="pineapple lol"/>
+    <h2>This is floating</h2>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+    <p>floating floating. This is a very long paragraph indeed. I want more rats and other stuff. Like what in the world. Because why are you still reading this, its a waste of time omg.</p>
+</body>
