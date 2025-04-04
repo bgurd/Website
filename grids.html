@@ -1,0 +1,68 @@
+<!doctype html>           
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Grid Demo</title>
+
+
+
+<style>
+    .container {  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 1fr 400px;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header"
+    "Sideleft Main Sideright"
+    "Footer Footer Footer";
+}
+
+.Header { grid-area: Header; 
+background-color: rgb(229, 117, 209);
+text-align: center;
+color: rgb(92, 28, 92);}
+
+.Sideleft { grid-area: Sideleft; 
+background-color: rgb(145, 160, 226);
+color: rgb(90, 88, 165);}
+
+.Main { grid-area: Main; 
+background-color: rgb(239, 231, 128);
+text-align: center;
+color: rgb(165, 118, 42);}
+
+.Sideright { grid-area: Sideright; 
+background-color:rgb(231, 149, 149);
+color: rgb(158, 55, 55);
+text-align: center;
+}
+
+.Footer { grid-area: Footer; 
+background-color: rgb(110, 193, 116);
+text-align: center;}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(255, 0, 0);
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="Header"><h1>Fun Facts!</h1>Believe it or not...</div>
+        <div class="Sideleft"><h1>Dolphins have unique names for each other, like how people have nicknames</h1></div>
+        <div class="Main"><h2>Australia is wider than the moon.</h2>The moon's diameter is around 3,400 kilometers, while Australia's width is almost 4,000 kiloneters. </div>
+        <div class="Sideright"><h1>Snails have teeth!</h1><h3>snails have from about 14,000 teeth to over 20,000, but they are microscopic and used to scrape food</h3></div>
+        <div class="Footer"><h1>The average cloud weighs 550 tons</h1><h3> A typical, fair weather cumulus cloud weighs about 1 billion 400 million pounds</h3></div>
+      </div>
+
+<p>Oh... You wanna go back? Fine...</p>
+<b><a href="index.html">Traitor.</a></b>
+</body>
